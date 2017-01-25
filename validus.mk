@@ -29,4 +29,7 @@ PRODUCT_RELEASE_NAME := surnia
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto E LTE (2nd gen)"
+
+# Validus Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="seAndroid"

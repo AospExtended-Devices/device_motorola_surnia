@@ -7,3 +7,6 @@ ro.qc.sdk.audio.fluencetype=none
 
 # Display
 ro.sf.lcd_density=240
+
+# Google Assistant
+ro.opa.eligible_device=true

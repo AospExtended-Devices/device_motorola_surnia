@@ -15,7 +15,6 @@ ro.opa.eligible_device=true
 ro.device.chipset=Qualcomm Snapdragon 410
 ro.device.cpu=Quad-core 1.2 GHz Cortex-A53
 ro.device.gpu=Adreno 306
-ro.device.memory=1 GB
 ro.device.rear_cam=5 MP
 ro.device.front_cam=0.3 MP
 ro.device.screen_res=540 x 960

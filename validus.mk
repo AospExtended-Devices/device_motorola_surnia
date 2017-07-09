@@ -32,4 +32,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Validus Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="seAndroid"
+    DEVICE_MAINTAINERS="Sean Pires (seAndroid)"

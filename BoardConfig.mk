@@ -27,9 +27,6 @@ TARGET_KERNEL_CONFIG := surnia_defconfig
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
-# ROM Toolchain
-TARGET_GCC_VERSION_EXP := 4.9
-
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := XT1514,XT1521,XT1524,XT1526,XT1527,XT1523,surnia_uds,surnia_umts,surnia,surnia_udstv
 TARGET_RELEASETOOLS_EXTENSIONS := # Not a typo, surnia doesn't need fw extraction script

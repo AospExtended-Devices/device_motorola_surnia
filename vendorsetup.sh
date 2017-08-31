@@ -1,1 +1,1 @@
-add_lunch_combo validus_surnia-userdebug
+add_lunch_combo gzosp_surnia-userdebug

@@ -14,7 +14,6 @@
 # limitations under the License.
 
 $(call inherit-product, device/motorola/surnia/full_surnia.mk)
-$(call inherit-product, vendor/gzosp/config/caf_fw.mk)
 
 # Boot animation
 #TARGET_SCREEN_WIDTH := 540

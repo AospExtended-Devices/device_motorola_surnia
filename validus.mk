@@ -30,5 +30,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto E LTE (2nd Gen)"
 
 # Validus Device Maintainers
-#PRODUCT_BUILD_PROP_OVERRIDES += \
-#    DEVICE_MAINTAINERS="Sean Pires (seAndroid)"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Sean Pires (seAndroid)"

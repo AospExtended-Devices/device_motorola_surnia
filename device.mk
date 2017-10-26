@@ -46,5 +46,5 @@ PRODUCT_PACKAGES += \
     init.target.rc
 
 # Resized boot animation
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/bootanimation/540.zip:system/media/bootanimation.zip
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/prebuilt/bootanimation/540.zip:system/media/bootanimation.zip

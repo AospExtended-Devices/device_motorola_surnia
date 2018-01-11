@@ -39,6 +39,8 @@
 #include <android-base/logging.h>
 #include <android-base/properties.h>
 
+using android::init::property_set;
+
 void gsm_properties(bool msim);
 void cdma_properties();
 

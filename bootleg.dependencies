@@ -12,9 +12,9 @@
     "revision": "oreo.1"
   },
   {
-    "repository":  "DeletMySourcesSurnia/kernel_motorola_msm8916",
+    "repository":  "eldainosor/kernel_motorola_msm8916-shd",
     "target_path": "kernel/motorola/msm8916",
-    "branch": "oreo-unbootable",
+    "branch": "oreo-mr1-release",
     "remote": "github"
   },
   {

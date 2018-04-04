@@ -60,6 +60,16 @@ vendor/lib/libchromatix_s5k5e2_liveshot.so
 vendor/lib/libchromatix_s5k5e2_preview.so
 vendor/lib/libchromatix_s5k5e2_snapshot.so
 
+# Media
+lib/libOmxVdecHevc.so
+-vendor/lib/libHevcSwDecoder.so
+vendor/lib/libI420colorconvert.so
+vendor/lib/libmmosal.so
+vendor/lib/libmm-color-convertor.so
+vendor/lib/libOmxAacDec.so
+vendor/lib/libOmxEvrcDec.so
+vendor/lib/libOmxQcelp13Dec.so
+
 # Touchscreen
 /etc/firmware/synaptics-boe-s2316b-15031101-175833-surnia.tdat
 /etc/firmware/synaptics-inx-s2316i-15031102-175833-surnia.tdat

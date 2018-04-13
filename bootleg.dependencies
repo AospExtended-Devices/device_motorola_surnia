@@ -20,7 +20,8 @@
   {
     "repository":   "vendor_motorola",
     "target_path":  "vendor/motorola",
-    "remote": "bootleg-dev"
+    "remote": "bootleg-dev",
+    "revision": "oreo.1"
   },
   {
     "repository": "LineageOS/android_external_bson",

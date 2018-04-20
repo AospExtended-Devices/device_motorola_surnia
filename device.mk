@@ -14,11 +14,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# call the proprietary setup
+$(call inherit-product-if-exists, vendor/motorola/surnia/surnia-vendor.mk)
+
 # Inherit from msm8916-common
 $(call inherit-product, device/motorola/msm8916-common/msm8916.mk)
-
-# Screen density
-PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
@@ -28,9 +28,18 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
 
+# Screen density
+PRODUCT_AAPT_PREF_CONFIG := hdpi
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
+
+# TARGET_BOOTANIMATION_HALF_RES := true
+TARGET_BOOTANIMATION_HALF_RES := true
+
+# Include Bootanimation configuration
+TARGET_BOOT_ANIMATION_RES := 540
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -48,7 +57,3 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.target.rc
-
-# Resized boot animation
-#PRODUCT_COPY_FILES += \
-#    $(LOCAL_PATH)/prebuilt/bootanimation/540.zip:system/media/bootanimation.zip

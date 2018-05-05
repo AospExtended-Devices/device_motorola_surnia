@@ -19,3 +19,6 @@ ro.device.gpu=Adreno 306
 ro.device.rear_cam=5 MP
 ro.device.front_cam=0.3 MP
 ro.device.screen_res=540 x 960
+
+# Radio
+persist.radio.aosp_usr_pref_sel=true

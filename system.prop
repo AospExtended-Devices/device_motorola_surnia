@@ -1,9 +1,9 @@
 # system.prop for surnia
 
 # Audio
-persist.audio.fluence.speaker=true
-persist.audio.fluence.voicecall=true
-ro.qc.sdk.audio.fluencetype=none
+persist.vendor.audio.fluence.speaker=true
+persist.vendor.audio.fluence.voicecall=true
+ro.vendor.audio.sdk.fluencetype=none
 
 # Display
 debug.hwui.use_buffer_age=false

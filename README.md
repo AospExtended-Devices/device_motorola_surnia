@@ -1,7 +1,7 @@
-Unified Device Tree for Moto E 2015 (surnia)
+Unified Device Tree for Moto E LTE 2015 (surnia)
 ===========================================
 
-The Motorola Moto E 2015 (codenamed _"surnia"_) is a mid-range smartphone from Motorola mobility.
+The Motorola Moto E 2015 (codenamed _"surnia"_) is a low-end smartphone from Motorola mobility.
 It was announced on February 2015.
 
 Basic   | Spec Sheet
@@ -17,6 +17,6 @@ Battery | Li-Ion 2930mAh battery
 Display | 540 x 960 pixels, 4.5 inches (~245 ppi pixel density)
 Camera  | 5 MP, 2592 х 1944 pixels, autofocus
 
-Copyright 2015 - The CyanogenMod Project.
+![Moto E LTE 2015](https://cdn2.gsmarena.com/vv/pics/motorola/motorola-moto-e-2nd-gen-xt1521.jpg "Moto E LTE 2015")
 
-![Moto E 2015](https://wiki.cyanogenmod.org/images/thumb/f/f9/Otus.png/315px-Otus.png "Moto E 2015")
+**Copyright 2015 - The CyanogenMod Project.**

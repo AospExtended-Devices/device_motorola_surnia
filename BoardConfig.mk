@@ -23,8 +23,8 @@ DEVICE_PATH := device/motorola/surnia
 
 TARGET_KERNEL_CONFIG := surnia_defconfig
 
-# SDCLANG
-TARGET_USE_SDCLANG := true
+# Kernel Toolchain
+KERNEL_TOOLCHAIN_PREFIX := arm-linux-androidkernel-
 
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := XT1514,XT1521,XT1524,XT1526,XT1527,XT1523,surnia_uds,surnia_umts,surnia,surnia_udstv

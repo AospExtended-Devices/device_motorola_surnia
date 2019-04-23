@@ -34,11 +34,11 @@
 
 #include "vendor_init.h"
 #include "property_service.h"
-#include "log.h"
-#include "util.h"
+#include <sys/sysinfo.h>
 #include <android-base/logging.h>
 #include <android-base/properties.h>
 
+using android::base::GetProperty;
 using android::init::property_set;
 
 void gsm_properties(bool msim);
